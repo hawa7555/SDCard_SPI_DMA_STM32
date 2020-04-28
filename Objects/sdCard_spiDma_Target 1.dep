@@ -1,0 +1,34 @@
+Dependencies for Project 'sdCard_spiDma', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5EA7D9E6)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE-I C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58255B94)
+I (C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE\RTE_Components.h)(0x5EA5B6DE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476C5F0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58255B94)
+I (C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE\Device\STM32F103C8\delay.h)(0x5E8F4022)
+I (C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE\Device\STM32F103C8\uart1.h)(0x5E95CB35)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver\GPIO_STM32F10x.c)(0x571F1A32)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE-I C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD-o .\objects\gpio_stm32f10x.o --omf_browse .\objects\gpio_stm32f10x.crf --depend .\objects\gpio_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver\GPIO_STM32F10x.h)(0x56174C46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5476C5F0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58255B94)
+I (C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE\RTE_Components.h)(0x5EA5B6DE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476C5F0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58255B94)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x592802CE)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x58255B94)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE-I C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver--pd "__UVISION_VERSION SETA 513" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x58255B94)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE-I C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="513" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58255B94)
+I (C:\Users\Harshal\OneDrive\Desktop\STM32_codes\sdCard_spiDma\RTE\RTE_Components.h)(0x5EA5B6DE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476C5F0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8329EA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EF44A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58255B94)
