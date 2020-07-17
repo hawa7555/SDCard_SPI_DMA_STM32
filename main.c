@@ -119,7 +119,7 @@ void fillData()
 	sdData[0] = 0xfc;             //start token for every sector write
 	for(int i = 1; i <513; i++)   //512 bytes of data
 	{
-		sdData[i] = i-1;
+		sdData[i] = 0xff;
 	}
 }
 
@@ -165,7 +165,7 @@ void DMA1_Channel3_IRQHandler() {
 		}while(spiReceive() == 0x00);       //wait till card is busy in writing
 		
 		counter++;
-		if(counter == 3)
+		if(counter == 600)
 		{
 			//DMA1_Channel3->CCR &= ~(1<<0);    //stop DMA
 			/**do{
@@ -207,7 +207,7 @@ void DMA1_Channel3_IRQHandler() {
 int main()
 {
 	uart1_init();
-	//transmitString("Starting...");
+	transmitString("Starting...\r\n");
 	
 	fillData();
 	
@@ -224,7 +224,7 @@ int main()
 	sendByte(0xff, 20);    //dummy bytes
 	
 	sendCommand(0, 0x00000000, 0x95);   //cmd0 command and response
-	sendCommand(8, 0x000001aa, 0x87);   //cmd8 command
+	sendCommand(8, 0x000001aa, 0x87);   //cmd8 command and response
 	
   for(int i = 0; i<4; i++)    //further response of cmd 8 cmmnd
 	{
